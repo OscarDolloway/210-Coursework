@@ -13,6 +13,9 @@ def shuffle( Integers ):
     return Integers   
 print(shuffle([5,6,7,10,11,12]))
 
-#O = o(n)
+#O = o(n) O notation – O (n)
+#This function shuffle which shuffles the array by the length of the list, I chose the length of the list so if the list was bigger it would get shuffled more times which I believe is efficient. 
+#The o notation of this code is o(N) as the size of the list is N it could be any size therefore the result is o(n).
+
 
 
