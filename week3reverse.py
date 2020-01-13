@@ -16,11 +16,6 @@ for i in range(len(s)-1,0,-1):#start at the end of the list, stop at 0 and go do
     
     if string[i] is string[i+1]:
         print('same')
-    
-    #while i < len(s):
-    #    continue
-    #    print("yes")
-        
     newlist.append(s[i])
 
     #    print(s[i])
@@ -42,3 +37,5 @@ print(newlist)
 #improvements could be -chosen element from goal number and then look for that specific number
 #list1 = [1,5,8,3,7,9]
 #list2 = [1,5,10,3,6,9]
+
+

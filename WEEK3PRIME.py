@@ -57,12 +57,20 @@ Prime(2,14)
 
 
 
+#ui = input("please Enter string: ")
 
+#Target = input("enter substring")
 
+haystack = input()
+needle = input()
 
+cnt = 0
+for ii in range(0, len(haystack) - len(needle) + 1):
+    if haystack[ii:ii + len(needle)] == needle:
+        print(haystack[ii:])
+        cnt = cnt + 1
 
-
-
+print (cnt)
 
 
 

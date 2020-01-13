@@ -18,11 +18,9 @@ def Sequence1(integers):
                 longestSeq = currentSeq
             #reset current sequence tracker
             currentSeq = []
-    print()      
+    print()
     print ('longest sequence = ', longestSeq)
 #we store the subsequence we're looking at as currentSeq,
 #we then check the length of current with longest if current is longer it replaces the longest.
 #we then reset currentSeq as empty and loop back round and do the same with the next subsequence
 Sequence1([1,2,3,4,5,1,2,4,5,6,7,1,2,3])
-
-

@@ -37,13 +37,14 @@ class Graph:
         stack.append(node)
         while stack:
             u = stack.pop()
-            #print(u)
+            print(u,'uuuu')
             for i in self.list_node[u]:
                 #print(i)
                 if i not in visited:
                     stack.append(i)
             visited.append(u)
-        print(visited)
+            print(visited,"viisted")
+        #print(visited)
 
     def BFS(self,node):
         queue = []
@@ -55,8 +56,8 @@ class Graph:
                 if temp not in visited:
                     queue.append(n)
             visited.append(temp)
-            print('visited',temp)
-        print( visited)
+            #print('visited',temp)
+        #print( visited)
 
 
 nodes = Graph()
@@ -77,5 +78,5 @@ nodes.addEdge(5,2)
 
 
 print(nodes.list_node)
-nodes.DFS(1)
+nodes.DFS(3)
 nodes.BFS(1)
